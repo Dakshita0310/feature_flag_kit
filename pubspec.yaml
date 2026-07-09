@@ -1,0 +1,12 @@
+name: feature_flag_kit
+description: >-
+  A platform-agnostic feature flag and staged-rollout evaluation engine with
+  deterministic MurmurHash3 bucketing, instant kill-switches, targeting rules,
+  and explainable evaluation results. Zero runtime dependencies.
+version: 0.1.0
+environment:
+  sdk: ^3.5.0
+
+dev_dependencies:
+  lints: ^5.1.1
+  test: ^1.25.8

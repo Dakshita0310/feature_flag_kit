@@ -1,0 +1,14 @@
+# Dart tooling
+.dart_tool/
+build/
+
+# Lock file is not committed for library packages
+pubspec.lock
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
