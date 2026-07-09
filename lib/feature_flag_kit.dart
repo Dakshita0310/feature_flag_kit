@@ -9,4 +9,4 @@
 /// persistence are abstract interfaces implemented by the host application.
 library;
 
-// Public API exports are added as features land (see README roadmap).
+export 'src/bucketing.dart';

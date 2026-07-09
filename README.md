@@ -25,7 +25,7 @@ See [docs/engine_architecture_spec.md](docs/engine_architecture_spec.md).
 ## Roadmap
 
 - [x] Package scaffold, CI, strict lints
-- [ ] Vendored MurmurHash3 + deterministic bucketing
+- [x] Vendored MurmurHash3 + deterministic bucketing
 - [ ] Config models + strict validation
 - [ ] Evaluation hierarchy with explainability
 - [ ] Session controller (selective freeze) + v0.1.0 release
