@@ -4,6 +4,14 @@ description: >-
   deterministic MurmurHash3 bucketing, instant kill-switches, targeting rules,
   and explainable evaluation results. Zero runtime dependencies.
 version: 0.1.0
+repository: https://github.com/Dakshita0310/feature_flag_kit
+issue_tracker: https://github.com/Dakshita0310/feature_flag_kit/issues
+topics:
+  - feature-flags
+  - remote-config
+  - ab-testing
+  - rollout
+  - kill-switch
 environment:
   sdk: ^3.5.0
 

@@ -1,6 +1,8 @@
 # Changelog
 
-## 0.1.0 (unreleased)
+## 0.1.0 - 2026-07-10
+
+Initial release.
 
 - Package scaffold: strict analysis options, CI, MIT license, architecture docs.
 - Vendored MurmurHash3 x86 32-bit (web-safe 16-bit limb arithmetic), verified
