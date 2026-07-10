@@ -8,3 +8,8 @@
 - `getRolloutBucket(userId, featureKey)`: deterministic 0-99 bucketing via
   `murmur3("userId:featureKey") % 100`, with pinned permanence-guard
   regression vectors.
+- Config models (`RemoteConfig`, `FeatureConfig`, `TargetingRules`,
+  `UserContext`, `EvaluationResult`) with strict, atomic JSON validation:
+  schema violations throw `ConfigValidationException` with the offending
+  JSON path and are never partially applied. Round-trip `toJson` support
+  for Last-Known-Good caching.
