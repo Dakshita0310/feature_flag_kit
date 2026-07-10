@@ -1,8 +1,7 @@
 name: feature_flag_kit
 description: >-
-  A platform-agnostic feature flag and staged-rollout evaluation engine with
-  deterministic MurmurHash3 bucketing, instant kill-switches, targeting rules,
-  and explainable evaluation results. Zero runtime dependencies.
+  Platform-agnostic feature flag and staged-rollout engine with deterministic
+  bucketing, kill-switches, targeting rules, and explainable results.
 version: 0.1.0
 repository: https://github.com/Dakshita0310/feature_flag_kit
 issue_tracker: https://github.com/Dakshita0310/feature_flag_kit/issues
