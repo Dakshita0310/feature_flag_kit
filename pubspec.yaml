@@ -2,7 +2,7 @@ name: feature_flag_kit
 description: >-
   Platform-agnostic feature flag and staged-rollout engine with deterministic
   bucketing, kill-switches, targeting rules, and explainable results.
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/Dakshita0310/feature_flag_kit
 issue_tracker: https://github.com/Dakshita0310/feature_flag_kit/issues
 topics:

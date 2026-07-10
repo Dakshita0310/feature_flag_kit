@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1 - 2026-07-10
+
+- Shortened the package description to fit pub.dev search-result limits.
+  No code changes.
+
 ## 0.1.0 - 2026-07-10
 
 Initial release.
