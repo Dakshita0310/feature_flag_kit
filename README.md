@@ -28,7 +28,8 @@ See [docs/engine_architecture_spec.md](docs/engine_architecture_spec.md).
 - [x] Vendored MurmurHash3 + deterministic bucketing
 - [x] Config models + strict validation
 - [x] Evaluation hierarchy with explainability
-- [ ] Session controller (selective freeze) + v0.1.0 release
+- [x] Session controller (selective freeze)
+- [ ] v0.1.0 release on pub.dev
 
 ## License
 

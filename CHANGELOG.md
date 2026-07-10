@@ -18,3 +18,9 @@
   case-insensitive `allowedCountries`, AND semantics, safe-default exclusion
   on missing attributes) > percentage rollout (0/100 short-circuit) >
   fallback, every decision explained via `EvaluationResult`.
+- `ConfigSessionController` with selective freeze: boots on compiled-in
+  defaults, hydrates from the Last-Known-Good cache, persists fresh fetches
+  for the next launch while freezing non-emergency changes mid-session, and
+  applies kill-switch activations live (monotonic within a session) with
+  change notifications. Abstract `ConfigFetcher`/`ConfigStore` interfaces
+  keep the package free of network and storage dependencies.
