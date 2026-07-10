@@ -27,7 +27,7 @@ See [docs/engine_architecture_spec.md](docs/engine_architecture_spec.md).
 - [x] Package scaffold, CI, strict lints
 - [x] Vendored MurmurHash3 + deterministic bucketing
 - [x] Config models + strict validation
-- [ ] Evaluation hierarchy with explainability
+- [x] Evaluation hierarchy with explainability
 - [ ] Session controller (selective freeze) + v0.1.0 release
 
 ## License

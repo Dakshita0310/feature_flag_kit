@@ -13,3 +13,8 @@
   schema violations throw `ConfigValidationException` with the offending
   JSON path and are never partially applied. Round-trip `toJson` support
   for Last-Known-Good caching.
+- `evaluateFlag`: pure, synchronous evaluation walking the strict hierarchy
+  kill-switch > targeting (numeric per-component `minAppVersion`,
+  case-insensitive `allowedCountries`, AND semantics, safe-default exclusion
+  on missing attributes) > percentage rollout (0/100 short-circuit) >
+  fallback, every decision explained via `EvaluationResult`.

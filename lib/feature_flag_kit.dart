@@ -10,6 +10,7 @@
 library;
 
 export 'src/bucketing.dart';
+export 'src/evaluator.dart';
 export 'src/models/evaluation_result.dart';
 export 'src/models/remote_config.dart';
 export 'src/models/user_context.dart';
